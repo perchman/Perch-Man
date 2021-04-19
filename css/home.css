@@ -1,0 +1,89 @@
+/* Post */
+.post {
+    display: block;
+    width: 970px;
+    margin: 0 auto 60px;
+    text-decoration: none;
+    box-shadow: 0px 0px 35px 0px rgba(60, 221, 255, 0.2);
+}
+.post:first-child {
+    margin-top: 100px;
+}
+.post:last-child {
+    margin-bottom: 100px;
+}
+.post_inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+.post_img {
+    width: 50%;
+}
+.post_img img {
+    width: 100%;
+}
+.post_descript {
+    width: 47%;
+    margin-left: 3%;
+}
+.post_descript--left {
+    margin-right: 3%;
+    margin-left: 0;
+}
+.post_title {
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #333;
+    text-decoration: none;
+    transition: color .3s linear;
+}
+.post_title:hover {
+    color: #66d9ff;
+}
+.post_text {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #444;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+.post_link {
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #2ccaff;
+    text-decoration: none;
+    transition: background .2s linear;
+}
+.post_link--git {
+    background-color: #484f58;
+}
+.post_link:hover {
+    background-color: #71dcff;
+}
+.post_link--git:hover {
+    background-color: #797d83;
+}
+.post_link span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+.post_footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.post_by, .post_date {
+    font-size: 16px;
+    color: #333;
+}
+.post_by span, .post_date span {
+    color: #66d9ff;
+    margin-right: 8px;
+}
