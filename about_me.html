@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css\style.css">
     <link rel="stylesheet" href="css\about_me.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/46e830f02a.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -20,7 +20,7 @@
                     <h2 class="header_title">Perch-Man</h2>
                 </div>
                 <a class="header_link" href="#">
-                    <span>Обо мне</span> 
+                    <span>На главную</span> 
                     <i class="fas fa-arrow-circle-right"></i>
                 </a>
             </div>
@@ -48,24 +48,61 @@
     </div> <!-- /.intro -->
     <div class="info">
         <div class="container">
-            <img class="info_photo" src="http://placehold.it/300x290" alt="">
-            <div class="info_data">
-                <h2 class="info_name">Окунев Владимир</h2>
-                <div class="info_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                <div class="info_skills">
-                    <h3>Мои знания и навыки:</h3>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Flexbox</li>
-                        <li>Grid</li>
-                        <li>Git</li>
-                        <li>Активно изучаю JavaScript</li>
-                    </ul>
+            <div class="info_inner">
+                <div class="info_block">
+                    <h2 class="info_title">Обо мне</h2>
+                    <div class="info_text">Меня зовут Окунев Владимир, я начинающий <span>Frontend-разработчик</span>.</div>
+                    <img class="info_photo" src="http://placehold.it/300x290" alt="">
+                    <div class="info_text">Я изучаю разработку сайтов с января 2021 года. По образованию я геолог, и два года я работал по специальности, прежде чем открыл для себя мир IT технологий. Изучив направления я решил остановиться на Frontend разработке. Чем меня привлек Frontend? Возможностью сразу увидеть и оценить результат своей работы. Для меня это один из стимулов двигаться дальше и развиваться, чтобы в дальнейшем создать что-то лучше, чем было до этого.</div>
+                    <div class="info_text">Я прекрасно понимаю уровень своих навыков, осознаю что мне еще многое предстоит изучить и освоить. Мое обучение курирует опытный Backend-разработчик с 9-ти летним коммерческим опытом.</div>
                 </div>
-                <div class="info_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div class="info_block">
+                    <h2 class="info_title">О сайте</h2>
+                    <div class="info_text">Этот сайт является портфолио. Я хотел сделать быстрый и удобный способ оценки моих работ для работодателей и других пользователей, случайно заглянувших на мой сайт.</div>
+                    <div class="info_text">Я буду здесь публиковать свои работы верстки сайтов и разработки интерфейсов web-приложений. Весь открытый исходный код доступен на <a class="info_link" href="#">GitHub</a>.</div>
+                </div>
+                <div class="info_block">
+                    <div class="info_text">Если у Вас есть для меня рекомендации, наставления, замечания или предложения о работе пишите мне в <a class="info_link info_link--teleg" href="#">Telegram</a> или на <a class="info_link info_link--mail" href="#">email</a>.</div>
+                </div>
             </div>
         </div>
     </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="tab">
+                <a class="tab_item tab_item--my" href="#">
+                    <div class="tab_text">На главную</div>
+                    <div class="tab_icon">
+                        <i class="fas fa-reply"></i>
+                    </div>
+                </a>
+                <a class="tab_item tab_item--inst" href="#">
+                    <div class="tab_text">Instagram</div>
+                    <div class="tab_icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </a>
+                <a class="tab_item tab_item--teleg" href="#">
+                    <div class="tab_text">Telegram</div>
+                    <div class="tab_icon">
+                        <i class="fab fa-telegram-plane"></i>
+                    </div>
+                </a>
+                <a class="tab_item tab_item--vk" href="#">
+                    <div class="tab_text">ВКонтакте</div>
+                    <div class="tab_icon">
+                        <i class="fab fa-vk"></i>
+                    </div>
+                </a>
+                <a class="tab_item tab_item--git" href="#">
+                    <div class="tab_text">GitHub</div>
+                    <div class="tab_icon">
+                        <i class="fab fa-github-alt"></i>
+                    </div>
+                </a>
+            </div> <!-- /.tab -->
+        </div> <!-- /.container -->
+        <div class="copyright">© 2021 "<span>Perch-Man</span>"</div>
+    </footer>
 </body>
 </html>
